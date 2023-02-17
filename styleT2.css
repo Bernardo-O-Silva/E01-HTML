@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+main {
+
+    margin: auto;
+    width: 50vw;
+
+}
+
+#titulo {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+
+}
+
+#legenda {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    color: gray;
+
+}
+
+#legendinha {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 65%;
+    color: gray;
+
+}
+
+a {
+
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+
+}
+
+ol {
+	
+	font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+	
+}
+
+ul {
+	
+	font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+	
+}
