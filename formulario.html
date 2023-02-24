@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="styleT4.css">
+</head>
+<body>
+    
+    <h1 id="titulo">Formulário de Inscrição</h1>
+    
+    <main>
+        <form>
+            <fieldset>
+                <legend id="titulozinho">Dados Pessoais</legend>
+                <div>
+                    <label>Código: </label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label>Nome: </label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Senha: </label>
+                    <input type="password">
+                </div>
+                <div>
+                    <label>Sexo: </label>
+                    <label>
+                        <input type="radio" name="sexo">
+                        Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo">
+                        Feminino
+                    </label>
+                </div>
+                <div>
+                    <label>Idade: </label>
+                    <input id="idade" type="number">
+                </div>
+                <div id="cartao">
+                    <label id="texto">Cartão de Crédito: </label>
+                    <br>
+                    <select multiple id="caixinha">
+                        <option>Mastercard</option>
+                        <option>Visa</option>
+                        <option>American Express</option>
+                    </select>
+                </div>
+            </fieldset>
+        
+            <fieldset>
+                <legend id="titulozinho">Dados Profissionais</legend>
+                <div>
+                    <label>Cargo: </label>
+                    <select>
+                        <option>Analista Júnior</option>
+                        <option>Analista Pleno</option>
+                        <option>Analista Sênior</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Dados Pessoais: </label><br>
+                    <label>
+                        <input type="checkbox">
+                        Fumante<br>
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Pratica Exercícios Físicos <br>
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Consome Bebida Alcoólica<br>
+                    </label>
+                </div>
+                <div id="areatexto">
+                    <label id="texto">Experiências Profissionais: </label><br>
+                    <textarea placeholder="Data Início/Data Fim/Empresa/Cargo"></textarea>
+                </div>
+            </fieldset>
+
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Inserir</button>
+            </div>
+
+        </form>
+
+    </main>
+
+
+</body>
+</html>

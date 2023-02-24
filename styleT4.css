@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif; 
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+main {
+    
+    font-size: 100% ;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+#titulo {
+
+    text-align: center;
+    font-size: 230%;
+    padding-bottom: 15px;
+
+}
+
+#titulozinho {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 135%;
+    padding-bottom: 10px;
+
+}
+
+#idade {
+
+    width: 35px;
+
+}
+
+label {
+
+    padding-left: 10px;
+
+}
+
+#cartao {
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+
+#caixinha {
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+
+#texto {
+
+    padding-left: 0px;
+
+}
+
+div {
+
+    padding-bottom: 10px;
+
+}
+
+fieldset {
+
+    width: 100%;
+
+}
+
+legend {
+
+    text-align: center;
+
+}
+
+#areatexto {
+
+    padding-left: 10px;
+
+}
+
+textarea {
+
+    height: 70px;
+    width: 280px;
+
+}
